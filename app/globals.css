@@ -66,11 +66,24 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
+* {
+  font-family: 'Fredoka', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.shadow-custom-box {
+  @layer utilities {
+    .shadow-custom-box {
+      @apply shadow-md;
+      box-shadow: 0 0.375em 0 currentcolor;
+    }
   }
 }
