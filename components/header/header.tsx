@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 
-import Logo from '@/images/logo/iconpeak.svg'
 import Image from 'next/image'
+import Logo from '@/images/logo/iconpeak.svg'
 
 const Header = () => {
   return (

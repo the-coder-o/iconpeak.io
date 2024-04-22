@@ -87,3 +87,7 @@
     }
   }
 }
+
+.shadow-custom-box:active {
+  box-shadow: none;
+}
