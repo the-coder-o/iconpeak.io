@@ -5,10 +5,18 @@ import Image from 'next/image'
 
 import HeroIcon1 from '@/images/svgs/hero-icon-bg.svg'
 import HeroIcon2 from '@/images/svgs/hero-icon-bg1.svg'
+import { Input } from '@/components/ui/input'
 
 const Home = () => {
   return (
     <div>
+      <div className={'container'}>
+        <div className={'relative mt-14 flex items-center justify-center gap-5 rounded-lg bg-[#54EABE] p-5 text-[#1A3154]'}>
+          <span className={'absolute -top-4 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-[16px] font-medium text-white'}>COMING SOON !</span>
+          <i className="fa-solid fa-crown text-4xl text-[#1A3154]"></i>
+          <p className={'font-medium'}>We are working very hard on iconpeak.io website, soon you will be able to use our platform completely, thank you for understanding us.</p>
+        </div>
+      </div>
       <div className="relative flex h-[960px] justify-center overflow-hidden">
         <Image src={HeroIcon1} alt={''} width={540} height={864} className={'absolute left-[-720px] top-[50px] -z-10 !w-[1000px]'} />
         <Image src={HeroIcon2} alt={''} width={540} height={864} className={'absolute right-[-720px] top-[50px] -z-10 !w-[1000px]'} />
@@ -164,7 +172,17 @@ const Home = () => {
           <div className={'flex flex-col items-center justify-center gap-[20px]'}>
             <h3 className={'text-[18px] font-medium tracking-[8px] text-[#9C36B5]'}>ICON DISCOVERY</h3>
             <h2 className={'text-[32px] font-[500]'}>These ARE the icons you&apos;re looking for.</h2>
-            <p className={'w-[728px] text-center'}>Have you ever squandered hours scanning the dank, skeezy corners of the internet scrounging up the icons you need? Us too. That&apo s&apos;s why we re-engineered our icon search from the ground up with ease of icon findability in mind, so you can match your brand with the perfect look and feel.</p>
+            <p className={'w-[728px] text-center'}>Have you ever squandered hours scanning the dank, skeezy corners of the internet scrounging up the icons you need? Us too. That&apos;s why we re-engineered our icon search from the ground up with ease of icon findability in mind, so you can match your brand with the perfect look and feel.</p>
+            <div className={'relative'}>
+              <i className="fa-solid fa-magnifying-glass absolute left-[25px] top-[19px] text-[22px] "></i>
+              <Input
+                style={{
+                  boxShadow: 'inset 0 0.25em 0 0 rgb(240, 241, 243)',
+                }}
+                placeholder={'Search 500+ icons across 9 styles + brands...'}
+                className={'w-[650px] rounded-[4em] border-2 border-[#183153] !py-[28px] pl-[60px] text-[18px] !outline-none active:!ring-[3px] active:!ring-[#86BEF7] active:!ring-offset-1'}
+              />
+            </div>
           </div>
         </div>
       </div>
