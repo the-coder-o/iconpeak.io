@@ -164,7 +164,7 @@ const Home = () => {
           <div className={'flex flex-col items-center justify-center gap-[20px]'}>
             <h3 className={'text-[18px] font-medium tracking-[8px] text-[#9C36B5]'}>ICON DISCOVERY</h3>
             <h2 className={'text-[32px] font-[500]'}>These ARE the icons you&apos;re looking for.</h2>
-            <p className={'w-[728px] text-center'}>Have you ever squandered hours scanning the dank, skeezy corners of the internet scrounging up the icons you need? Us too. That&apo s's why we re-engineered our icon search from the ground up with ease of icon findability in mind, so you can match your brand with the perfect look and feel.</p>
+            <p className={'w-[728px] text-center'}>Have you ever squandered hours scanning the dank, skeezy corners of the internet scrounging up the icons you need? Us too. That&apo s&apos;s why we re-engineered our icon search from the ground up with ease of icon findability in mind, so you can match your brand with the perfect look and feel.</p>
           </div>
         </div>
       </div>
