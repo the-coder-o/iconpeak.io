@@ -126,43 +126,61 @@ const Home = () => {
           <div className={'flex gap-6'}>
             <i className="fa-solid fa-earth-americas text-[32px] text-green-500"></i>
             <div className={'flex flex-col gap-3'}>
-              <h3 className={'text-[18px] font-medium text-[#183153]'}>Your Personal CDN</h3>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>
+                Your Personal CDN
+              </h3>
               <p className={'w-[464px]'}>Add our super-simple embed code to your site and have instant access to ALL of Font Awesome.</p>
             </div>
           </div>
           <div className={'flex gap-6'}>
             <i className="fa-solid fa-arrows-rotate text-[32px] text-green-500"></i>
             <div className={'flex flex-col gap-3'}>
-              <h3 className={'text-[18px] font-medium text-[#183153]'}>Your Personal CDN</h3>
-              <p className={'w-[464px]'}>Add our super-simple embed code to your site and have instant access to ALL of Font Awesome.</p>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>
+                Instant Updates
+              </h3>
+              <p className={'w-[464px]'}>Make changes to your icon configuration on the fly without having to touch or push code.</p>
             </div>
           </div>
           <div className={'flex gap-6'}>
-            <i className="fa-solid fa-cloud-arrow-up text-[32px] text-green-500"></i>
+            <i className="fa-solid fa-upload text-[32px] text-green-500"></i>
             <div className={'flex flex-col gap-3'}>
-              <h3 className={'text-[18px] font-medium text-[#183153]'}>Your Personal CDN</h3>
-              <p className={'w-[464px]'}>Add our super-simple embed code to your site and have instant access to ALL of Font Awesome.</p>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>
+                Upload Your Own Icons
+              </h3>
+              <p className={'w-[464px]'}>Extend Font Awesome with your own custom icons, logos, and even other icon sets to fit your project perfectly.</p>
             </div>
           </div>
           <div className={'flex gap-6'}>
             <i className="fa-solid fa-heart-circle-check text-[32px] text-green-500"></i>
             <div className={'flex flex-col gap-3'}>
-              <h3 className={'text-[18px] font-medium text-[#183153]'}>Your Personal CDN</h3>
-              <p className={'w-[464px]'}>Add our super-simple embed code to your site and have instant access to ALL of Font Awesome.</p>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>
+                Your Own Icons Collections
+              </h3>
+              <p className={'w-[464px]'}>Place icons on your website with a simple, memorable syntax. And easily change styles when the mood suits you.</p>
             </div>
           </div>
           <div className={'flex gap-6'}>
             <i className="fa-solid fa-circle-info text-[32px] text-green-500"></i>
             <div className={'flex flex-col gap-3'}>
-              <h3 className={'text-[18px] font-medium text-[#183153]'}>Your Personal CDN</h3>
-              <p className={'w-[464px]'}>Add our super-simple embed code to your site and have instant access to ALL of Font Awesome.</p>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>
+                Auto-Accessibility & More
+              </h3>
+              <p className={'w-[464px]'}>Automate your icons&apos; accessibility, control load timing, ensure Font Awesome Version 4 compatibility, and more.</p>
             </div>
           </div>
           <div className={'flex gap-6'}>
             <i className="fa-solid fa-download text-[32px] text-green-500"></i>
             <div className={'flex flex-col gap-3'}>
-              <h3 className={'text-[18px] font-medium text-[#183153]'}>Your Personal CDN</h3>
-              <p className={'w-[464px]'}>Add our super-simple embed code to your site and have instant access to ALL of Font Awesome.</p>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>
+                Download
+              </h3>
+              <p className={'w-[464px]'}>Design on the desktop with our Figma component, icon fonts, and SVGs, or grab the files to self-host.</p>
             </div>
           </div>
         </div>
