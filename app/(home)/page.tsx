@@ -18,8 +18,8 @@ const Home = () => {
         </div>
       </div>
       <div className="relative flex h-[960px] justify-center overflow-hidden">
-        <Image src={HeroIcon1} alt={''} width={540} height={864} className={'absolute left-[-720px] top-[50px] -z-10 !w-[1000px]'} />
-        <Image src={HeroIcon2} alt={''} width={540} height={864} className={'absolute right-[-720px] top-[50px] -z-10 !w-[1000px]'} />
+        <Image src={HeroIcon1} alt={''} width={540} height={864} className={'absolute left-[-720px] top-[0px] -z-10 !w-[1000px]'} />
+        <Image src={HeroIcon2} alt={''} width={540} height={864} className={'absolute right-[-720px] top-[0px] -z-10 !w-[1000px]'} />
         <div className={'container'}>
           <div className={'mt-[80px] flex flex-col gap-[35px]'}>
             <h1 className={'ml-auto mr-auto w-[650px] text-center text-[50px] font-[500] leading-[55px]'}>
@@ -201,6 +201,38 @@ const Home = () => {
                 className={'w-[650px] rounded-[4em] border-2 border-[#183153] !py-[28px] pl-[60px] text-[18px] !outline-none active:!ring-[3px] active:!ring-[#86BEF7] active:!ring-offset-1'}
               />
             </div>
+          </div>
+          <div className={'mt-14 flex items-center justify-between'}>
+            <Link href={''} className={'category-1 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#B197FC] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-face-smile text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Emoji</span>
+            </Link>
+            <Link href={''} className={'category-2 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#63E6BE] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-apple-whole text-4xl text-[#183153]"></i>
+              <span className={'text-center font-medium text-[#183153]'}>Fruits + Vegetables</span>
+            </Link>
+            <Link href={''} className={'category-3 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#E599F7] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-font text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Alphabet</span>
+            </Link>
+            <Link href={''} className={'category-4 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#74C0FC] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-anchor text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Maritime</span>
+            </Link>
+            <Link href={''} className={'category-5 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#FF8787] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-robot text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Science Fiction</span>
+            </Link>
+            <Link href={''} className={'category-6 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#F36944] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-brands fa-wordpress text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Brands</span>
+            </Link>
           </div>
         </div>
       </div>

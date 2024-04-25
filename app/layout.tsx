@@ -1,9 +1,12 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
-import Head from 'next/head'
+
+import ChatWood from '@/chat/chatwood'
+
 import Header from '@/components/header/header'
 import Footer from '@/components/footer/footer'
+
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +32,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka:wght@300..700&family=Gloria+Hallelujah&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
+        <ChatWood />
       </head>
       <body className={inter.className}>
         <Header />

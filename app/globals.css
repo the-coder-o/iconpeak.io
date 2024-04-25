@@ -104,3 +104,51 @@
 .figma-box:active {
   box-shadow: none;
 }
+
+.category-1 {
+  box-shadow: 0 0.25em 0 #6741D9;
+}
+
+.category-1:active {
+  box-shadow: none;
+}
+
+.category-2 {
+  box-shadow: 0 0.25em 0 #09A778;
+}
+
+.category-2:active {
+  box-shadow: none;
+}
+
+.category-3 {
+  box-shadow: 0 0.25em 0 #9C36B5;
+}
+
+.category-3:active {
+  box-shadow: none;
+}
+
+.category-4 {
+  box-shadow: 0 0.25em 0 #146ebe;
+}
+
+.category-4:active {
+  box-shadow: none;
+}
+
+.category-5 {
+  box-shadow: 0 0.25em 0 #CC0100;
+}
+
+.category-5:active {
+  box-shadow: none;
+}
+
+.category-6 {
+  box-shadow: 0 0.25em 0 #D62A00;
+}
+
+.category-6:active {
+  box-shadow: none;
+}
