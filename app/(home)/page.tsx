@@ -203,7 +203,37 @@ const Home = () => {
               />
             </div>
           </div>
-          <div className={'mt-14 flex items-center justify-between'}>
+          <div className={'mt-14 grid grid-cols-6 gap-7'}>
+            <Link href={''} className={'category-1 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#B197FC] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-face-smile text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Emoji</span>
+            </Link>
+            <Link href={''} className={'category-2 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#63E6BE] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-apple-whole text-4xl text-[#183153]"></i>
+              <span className={'text-center font-medium text-[#183153]'}>Fruits + Vegetables</span>
+            </Link>
+            <Link href={''} className={'category-3 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#E599F7] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-font text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Alphabet</span>
+            </Link>
+            <Link href={''} className={'category-4 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#74C0FC] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-anchor text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Maritime</span>
+            </Link>
+            <Link href={''} className={'category-5 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#FF8787] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-robot text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Science Fiction</span>
+            </Link>
+            <Link href={''} className={'category-6 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#F36944] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-brands fa-wordpress text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Brands</span>
+            </Link>
             <Link href={''} className={'category-1 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#B197FC] px-[20px]'}>
               <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
               <i className="fa-solid fa-face-smile text-4xl text-[#183153]"></i>
