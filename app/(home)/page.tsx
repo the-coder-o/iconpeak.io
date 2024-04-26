@@ -3,9 +3,10 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
+import { Input } from '@/components/ui/input'
+
 import HeroIcon1 from '@/images/svgs/hero-icon-bg.svg'
 import HeroIcon2 from '@/images/svgs/hero-icon-bg1.svg'
-import { Input } from '@/components/ui/input'
 
 const Home = () => {
   return (
@@ -185,7 +186,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className={'bg-[#F0F1F3] py-[100px]'}>
+      <div className={'relative bg-[#F0F1F3] py-[100px]'}>
         <div className={'container'}>
           <div className={'flex flex-col items-center justify-center gap-[20px]'}>
             <h3 className={'text-[18px] font-medium tracking-[8px] text-[#9C36B5]'}>ICON DISCOVERY</h3>
@@ -233,6 +234,129 @@ const Home = () => {
               <i className="fa-brands fa-wordpress text-4xl text-[#183153]"></i>
               <span className={'font-medium text-[#183153]'}>Brands</span>
             </Link>
+          </div>
+        </div>
+      </div>
+      <div className={'container'}>
+        <div className={'mb-[60px] mt-[40px] flex items-center justify-between'}>
+          <div className={'flex flex-col gap-5'}>
+            <h3 className={'text-[17px] font-[500] tracking-[5px] text-[#09A778]'}>THE RIGHT TOOL FOR THE JOB</h3>
+            <h2 className={'text-[40px] font-[500] text-[#183153]'}>Works Where You Work</h2>
+            <p className={'w-[520px] text-[16px] text-[#183153]'}>Whatever you&apos;re working on, we&apos;ve got a set of tools that work how and where you do.</p>
+            <div className={'flex items-center gap-5'}>
+              <Link href={'/'} className={'shadow-custom-box flex items-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-[#63E6BE] px-[65px] py-[15px] text-[18px] font-medium text-[#183153]'}>
+                <i className="fa-solid fa-icons"></i>
+                Your Icons
+              </Link>
+              <Link href={'/'} className={'shadow-custom-box flex items-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-white px-[65px] py-[15px] text-[18px] font-medium text-[#183153]'}>
+                <i className="fa-solid fa-download"></i>
+                Download
+              </Link>
+            </div>
+          </div>
+          <div>
+            <Image src={'https://img.fortawesome.com/1ce05b4b/frameworks-content-creator.svg'} alt={''} width={100} height={100} className={'mt-[-100px] !w-[520px]'} />
+          </div>
+        </div>
+        <div className={'mb-[100px] grid grid-cols-3 items-center gap-[30px]'}>
+          <div className={'relative rounded-[16px] bg-[#146EBE] p-5'}>
+            <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>
+            <div className={'flex flex-col gap-4'}>
+              <i className="fa-solid fa-user-tie text-5xl text-white"></i>
+              <h3 className={'text-xl text-white'}>Great for Developers</h3>
+              <p className={'text-white'}>We&apos;ve got frameworks and toolkits for the most popular plugins and packages that already work the way you expect.</p>
+            </div>
+          </div>
+          <div className={'relative rounded-[16px] bg-[#9C36B5] p-5'}>
+            <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>
+            <div className={'flex flex-col gap-4'}>
+              <i className="fa-solid fa-user-ninja text-5xl text-white"></i>
+              <h3 className={'text-xl text-white'}>Great for Designers</h3>
+              <p className={'text-white'}>Use your own designs alongside thousands of matching Font Awesome icons in each of 9 unique styles.</p>
+            </div>
+          </div>
+          <div className={'relative rounded-[16px] bg-[#09A778] p-5'}>
+            <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>
+            <div className={'flex flex-col gap-4'}>
+              <i className="fa-solid fa-user-secret text-5xl text-white"></i>
+              <h3 className={'text-xl text-white'}>Great for Content Creators</h3>
+              <p className={'text-white'}>With oodles of free icons — including brands + social icons — our syntax is easy to use in authoring tools like WordPress.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={'bg-[#183153] p-10'}>
+        <div className={'container'}>
+          <div>
+            <p className={'text-center font-medium tracking-[5px] text-[#fff]'}>FINE-TUNED FOR PERFORMANCE</p>
+            <div className={'mt-[50px] grid grid-cols-4 gap-[60px]'}>
+              <div className={'flex flex-col items-center gap-3'}>
+                <i className="fa-solid fa-feather text-5xl text-[#fff]"></i>
+                <p className={'text-center font-medium text-[#63E6BE]'}>Light-as-a-feather on Page Loads</p>
+              </div>
+              <div className={'flex flex-col items-center gap-3'}>
+                <i className="fa-solid fa-truck-ramp-box text-5xl text-[#fff]"></i>
+                <p className={'text-center font-medium text-[#63E6BE]'}>Reliable Uptime and Loading</p>
+              </div>
+              <div className={'flex flex-col items-center gap-3'}>
+                <i className="fa-solid fa-earth-asia text-5xl text-[#fff]"></i>
+                <p className={'text-center font-medium text-[#63E6BE]'}>Global-friendly CDN Network</p>
+              </div>
+              <div className={'flex flex-col items-center gap-3'}>
+                <i className="fa-solid fa-gauge-high text-5xl text-[#fff]"></i>
+                <p className={'text-center font-medium text-[#63E6BE]'}>Auto and Custom Subsetting Options</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={'container'}>
+        <div className={'mb-[100px] flex items-center justify-between'}>
+          <div>
+            <Image src={'https://img.fortawesome.com/1ce05b4b/open-source-illustration.svg'} alt={''} width={100} height={100} className={'!w-full'} />
+          </div>
+          <div className={'flex flex-col gap-5'}>
+            <h3 className={'text-[17px] font-[600] tracking-[5px] text-[#B197FC]'}>PROUDLY OPEN SOURCE</h3>
+            <h2 className={'text-[40px] font-[500] text-[#183153]'}>Everyone gets more awesome.</h2>
+            <p className={'w-[528px] text-[16px]'}>We know the pain of wrangling icons on the internet. That&paos;s why in 2012, we created the first version of our open-source icons and toolkit. And with the help of our subscription plan Font Awesome Pro, we've built a lean icon-obsessed team who keep cranking out more icons, more styles, and more services for everyone.</p>
+            <Link href={'/'} className={'shadow-custom-box mt-[50px] flex items-center justify-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-[#B197FC] px-[65px] py-[12px] text-[18px] font-medium text-[#183153]'}>
+              <i className="fa-solid fa-icons"></i>
+              All icons for free
+            </Link>
+          </div>
+        </div>
+        <div className={'grid grid-cols-3 items-center gap-[30px]'}>
+          <div className={'relative rounded-[16px] bg-[#F0F1F3] p-5'}>
+            <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>
+            <div className={'flex flex-col gap-4'}>
+              <i className="fa-solid fa-handshake text-center text-5xl text-[#6741D9]"></i>
+              <h3 className={'text-xl text-[#183153]'}>Iconpeak Free: Always Free</h3>
+              <p className={'text-[#183153]'}>From the beginning, Font Awesome has offered free and open source icons. And since we&apos;re creator owned and operated, we&apos;ll make sure Font Awesome Free stays that way.</p>
+            </div>
+          </div>
+          <div className={'relative rounded-[16px] bg-[#F0F1F3] p-5'}>
+            <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>
+            <div className={'flex flex-col gap-4'}>
+              <i className="fa-solid fa-shield-heart text-center text-5xl text-[#6741D9]"></i>
+              <h3 className={'text-xl text-[#183153]'}>No Shenanigans</h3>
+              <p className={'text-[#183153]'}>We have more icons, services, and support in Pro. If you want them, you subscribe. No shenanigans. We won&apos;t sell your data, because we don&apos;t want to live in that world, and we don&apos;t want to run that company.</p>
+            </div>
+          </div>
+          <div className={'relative rounded-[16px] bg-[#F0F1F3] p-5'}>
+            <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>
+            <div className={'flex flex-col gap-4'}>
+              <i className="fa-solid fa-rocket text-center text-5xl text-[#6741D9]"></i>
+              <h3 className={'text-xl text-[#183153]'}>Support Open Source</h3>
+              <p className={'text-[#183153]'}>Give back to the open-source community by subscribing to Font Awesome Pro. In fact, Pro subscribers helped grow Font Awesome Free icons by over 250% since version 4.</p>
+            </div>
+          </div>
+        </div>
+        <div className={'mb-[100px] mt-[50px] flex items-center justify-center'}>
+          <div className={'flex items-center gap-3'}>
+            <i className="fa-brands fa-github text-2xl"></i>
+            <a href={'https://github.com/the-coder-o/iconpeak.io'} target={'_blank'} className={'text-xl font-[500] underline decoration-dotted hover:text-[#6741D9]'}>
+              Iconpeak.io is one of the top open source projects on GitHub.
+            </a>
           </div>
         </div>
       </div>
