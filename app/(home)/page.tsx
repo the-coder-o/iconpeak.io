@@ -318,7 +318,7 @@ const Home = () => {
           <div className={'flex flex-col gap-5'}>
             <h3 className={'text-[17px] font-[600] tracking-[5px] text-[#B197FC]'}>PROUDLY OPEN SOURCE</h3>
             <h2 className={'text-[40px] font-[500] text-[#183153]'}>Everyone gets more awesome.</h2>
-            <p className={'w-[528px] text-[16px]'}>We know the pain of wrangling icons on the internet. That&paos;s why in 2012, we created the first version of our open-source icons and toolkit. And with the help of our subscription plan Font Awesome Pro, we've built a lean icon-obsessed team who keep cranking out more icons, more styles, and more services for everyone.</p>
+            <p className={'w-[528px] text-[16px]'}>We know the pain of wrangling icons on the internet. That&paos;s why in 2012, we created the first version of our open-source icons and toolkit. And with the help of our subscription plan Font Awesome Pro, we&apos;ve built a lean icon-obsessed team who keep cranking out more icons, more styles, and more services for everyone.</p>
             <Link href={'/'} className={'shadow-custom-box mt-[50px] flex items-center justify-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-[#B197FC] px-[65px] py-[12px] text-[18px] font-medium text-[#183153]'}>
               <i className="fa-solid fa-icons"></i>
               All icons for free
