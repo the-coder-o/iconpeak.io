@@ -11,7 +11,7 @@ const Header = () => {
         <Link href={'/'}>
           <Image src={Logo} alt={Logo} width={20} height={20} />
         </Link>
-        <div className={'flex items-center gap-14'}>
+        <div className={'flex items-center gap-14 max-md:hidden'}>
           <Link href={'/'} className={'text-[16px] text-[#616d8a]'}>
             Your Icons
           </Link>
@@ -27,6 +27,9 @@ const Header = () => {
           <Link href={'/'} className={'text-[16px] text-[#616d8a]'}>
             Plans
           </Link>
+        </div>
+        <div className={'hidden max-md:block'}>
+          <i className="fa-solid fa-bars text-xl"></i>
         </div>
       </div>
     </header>
