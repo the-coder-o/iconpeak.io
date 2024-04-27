@@ -110,165 +110,165 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/*<div className={'container'}>*/}
-      {/*  <div className={'mb-20 flex items-center justify-between'}>*/}
-      {/*    <div className={'flex flex-col gap-7'}>*/}
-      {/*      <h2 className={'font-bold tracking-[8px] text-green-400'}>ICONS. EASY. DONE.</h2>*/}
-      {/*      <h1 className={'text-[32px] font-[500]'}>1 line of code… 30,000+ icons.</h1>*/}
-      {/*      <p className={'w-[528px]'}>Iconpeak.io Kits are the place to manage all your icons for a project. With the power of Kits, you get the easiest way to use Font Awesome icons, great performance, easy customization, and you can even upload your own icons!</p>*/}
-      {/*      <Link href={'/'} className={'shadow-custom-box flex items-center justify-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-[#63E6BE] px-[35px] py-[15px] text-[18px] font-medium text-[#183153]'}>*/}
-      {/*        Go to Your Icons*/}
-      {/*        <i className="fa-solid fa-arrow-right"></i>*/}
-      {/*      </Link>*/}
-      {/*    </div>*/}
-      {/*    <div>*/}
-      {/*      <Image src={'https://img.fortawesome.com/1ce05b4b/kit-illustration.svg'} width={100} height={100} alt={'bg-image'} className={'!w-[400px]'} />*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*  <div className={'mb-[100px] grid grid-flow-col grid-rows-3 justify-between gap-[40px]'}>*/}
-      {/*    <div className={'flex gap-6'}>*/}
-      {/*      <i className="fa-solid fa-earth-americas text-[32px] text-green-500"></i>*/}
-      {/*      <div className={'flex flex-col gap-3'}>*/}
-      {/*        <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>*/}
-      {/*          <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>*/}
-      {/*          Your Personal CDN*/}
-      {/*        </h3>*/}
-      {/*        <p className={'w-[464px]'}>Add our super-simple embed code to your site and have instant access to ALL of Font Awesome.</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div className={'flex gap-6'}>*/}
-      {/*      <i className="fa-solid fa-arrows-rotate text-[32px] text-green-500"></i>*/}
-      {/*      <div className={'flex flex-col gap-3'}>*/}
-      {/*        <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>*/}
-      {/*          <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>*/}
-      {/*          Instant Updates*/}
-      {/*        </h3>*/}
-      {/*        <p className={'w-[464px]'}>Make changes to your icon configuration on the fly without having to touch or push code.</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div className={'flex gap-6'}>*/}
-      {/*      <i className="fa-solid fa-upload text-[32px] text-green-500"></i>*/}
-      {/*      <div className={'flex flex-col gap-3'}>*/}
-      {/*        <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>*/}
-      {/*          <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>*/}
-      {/*          Upload Your Own Icons*/}
-      {/*        </h3>*/}
-      {/*        <p className={'w-[464px]'}>Extend Font Awesome with your own custom icons, logos, and even other icon sets to fit your project perfectly.</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div className={'flex gap-6'}>*/}
-      {/*      <i className="fa-solid fa-heart-circle-check text-[32px] text-green-500"></i>*/}
-      {/*      <div className={'flex flex-col gap-3'}>*/}
-      {/*        <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>*/}
-      {/*          <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>*/}
-      {/*          Your Own Icons Collections*/}
-      {/*        </h3>*/}
-      {/*        <p className={'w-[464px]'}>Place icons on your website with a simple, memorable syntax. And easily change styles when the mood suits you.</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div className={'flex gap-6'}>*/}
-      {/*      <i className="fa-solid fa-circle-info text-[32px] text-green-500"></i>*/}
-      {/*      <div className={'flex flex-col gap-3'}>*/}
-      {/*        <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>*/}
-      {/*          <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>*/}
-      {/*          Auto-Accessibility & More*/}
-      {/*        </h3>*/}
-      {/*        <p className={'w-[464px]'}>Automate your icons&apos; accessibility, control load timing, ensure Font Awesome Version 4 compatibility, and more.</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div className={'flex gap-6'}>*/}
-      {/*      <i className="fa-solid fa-download text-[32px] text-green-500"></i>*/}
-      {/*      <div className={'flex flex-col gap-3'}>*/}
-      {/*        <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>*/}
-      {/*          <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>COMING SOON !</span>*/}
-      {/*          Download*/}
-      {/*        </h3>*/}
-      {/*        <p className={'w-[464px]'}>Design on the desktop with our Figma component, icon fonts, and SVGs, or grab the files to self-host.</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
-      {/*<div className={'relative bg-[#F0F1F3] py-[100px]'}>*/}
-      {/*  <div className={'container'}>*/}
-      {/*    <div className={'flex flex-col items-center justify-center gap-[20px]'}>*/}
-      {/*      <h3 className={'text-[18px] font-medium tracking-[8px] text-[#9C36B5]'}>ICON DISCOVERY</h3>*/}
-      {/*      <h2 className={'text-[32px] font-[500]'}>These ARE the icons you&apos;re looking for.</h2>*/}
-      {/*      <p className={'w-[728px] text-center'}>Have you ever squandered hours scanning the dank, skeezy corners of the internet scrounging up the icons you need? Us too. That&apos;s why we re-engineered our icon search from the ground up with ease of icon findability in mind, so you can match your brand with the perfect look and feel.</p>*/}
-      {/*      <div className={'relative'}>*/}
-      {/*        <i className="fa-solid fa-magnifying-glass absolute left-[25px] top-[19px] text-[22px] "></i>*/}
-      {/*        <Input*/}
-      {/*          style={{*/}
-      {/*            boxShadow: 'inset 0 0.25em 0 0 rgb(240, 241, 243)',*/}
-      {/*          }}*/}
-      {/*          placeholder={'Search 500+ icons across 9 styles + brands...'}*/}
-      {/*          className={'w-[650px] rounded-[4em] border-2 border-[#183153] !py-[28px] pl-[60px] text-[18px] !outline-none active:!ring-[3px] active:!ring-[#86BEF7] active:!ring-offset-1'}*/}
-      {/*        />*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div className={'mt-14 grid grid-cols-6 gap-7'}>*/}
-      {/*      <Link href={''} className={'category-1 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#B197FC] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-face-smile text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Emoji</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-2 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#63E6BE] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-apple-whole text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'text-center font-medium text-[#183153]'}>Fruits + Vegetables</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-3 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#E599F7] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-font text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Alphabet</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-4 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#74C0FC] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-anchor text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Maritime</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-5 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#FF8787] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-robot text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Science Fiction</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-6 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#F36944] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-brands fa-wordpress text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Brands</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-1 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#B197FC] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-face-smile text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Emoji</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-2 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#63E6BE] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-apple-whole text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'text-center font-medium text-[#183153]'}>Fruits + Vegetables</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-3 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#E599F7] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-font text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Alphabet</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-4 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#74C0FC] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-anchor text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Maritime</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-5 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#FF8787] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-solid fa-robot text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Science Fiction</span>*/}
-      {/*      </Link>*/}
-      {/*      <Link href={''} className={'category-6 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#F36944] px-[20px]'}>*/}
-      {/*        <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>*/}
-      {/*        <i className="fa-brands fa-wordpress text-4xl text-[#183153]"></i>*/}
-      {/*        <span className={'font-medium text-[#183153]'}>Brands</span>*/}
-      {/*      </Link>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
+      <div className={'container'}>
+        <div className={'mb-20 flex items-center justify-between max-lg:flex-col-reverse max-lg:gap-[50px]'}>
+          <div className={'flex flex-col gap-7 max-md:gap-5'}>
+            <h2 className={'font-bold tracking-[8px] text-green-400'}>ICONS. EASY. DONE.</h2>
+            <h1 className={'text-[32px] font-[500] max-md:text-[25px]'}>1 line of code… 30,000+ icons.</h1>
+            <p className={'w-[528px] max-lg:w-[700px] max-md:w-full'}>Iconpeak.io Kits are the place to manage all your icons for a project. With the power of Kits, you get the easiest way to use Font Awesome icons, great performance, easy customization, and you can even upload your own icons!</p>
+            <Link href={'/'} className={'shadow-custom-box flex items-center justify-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-[#63E6BE] px-[35px] py-[15px] text-[18px] font-medium text-[#183153]'}>
+              Go to Your Icons
+              <i className="fa-solid fa-arrow-right"></i>
+            </Link>
+          </div>
+          <div>
+            <Image src={'https://img.fortawesome.com/1ce05b4b/kit-illustration.svg'} width={100} height={100} alt={'bg-image'} className={'!w-[400px]'} />
+          </div>
+        </div>
+        <div className={'mb-[100px] grid grid-flow-col grid-rows-3 justify-between gap-[40px] max-md:mb-[50px] max-md:flex max-md:flex-col'}>
+          <div className={'flex gap-6'}>
+            <i className="fa-solid fa-earth-americas text-[32px] text-green-500"></i>
+            <div className={'flex flex-col gap-3'}>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>SOON !</span>
+                Your Personal CDN
+              </h3>
+              <p className={'w-[464px] max-lg:w-full'}>Add our super-simple embed code to your site and have instant access to ALL of Font Awesome.</p>
+            </div>
+          </div>
+          <div className={'flex gap-6'}>
+            <i className="fa-solid fa-arrows-rotate text-[32px] text-green-500"></i>
+            <div className={'flex flex-col gap-3'}>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>SOON !</span>
+                Instant Updates
+              </h3>
+              <p className={'w-[464px] max-lg:w-full'}>Make changes to your icon configuration on the fly without having to touch or push code.</p>
+            </div>
+          </div>
+          <div className={'flex gap-6'}>
+            <i className="fa-solid fa-upload text-[32px] text-green-500"></i>
+            <div className={'flex flex-col gap-3'}>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>SOON !</span>
+                Upload Your Own Icons
+              </h3>
+              <p className={'w-[464px] max-lg:w-full'}>Extend Font Awesome with your own custom icons, logos, and even other icon sets to fit your project perfectly.</p>
+            </div>
+          </div>
+          <div className={'flex gap-6'}>
+            <i className="fa-solid fa-heart-circle-check text-[32px] text-green-500"></i>
+            <div className={'flex flex-col gap-3'}>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>SOON !</span>
+                Your Own Icons Collections
+              </h3>
+              <p className={'w-[464px] max-lg:w-full'}>Place icons on your website with a simple, memorable syntax. And easily change styles when the mood suits you.</p>
+            </div>
+          </div>
+          <div className={'flex gap-6'}>
+            <i className="fa-solid fa-circle-info text-[32px] text-green-500"></i>
+            <div className={'flex flex-col gap-3'}>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>SOON !</span>
+                Auto-Accessibility & More
+              </h3>
+              <p className={'w-[464px] max-lg:w-full'}>Automate your icons&apos; accessibility, control load timing, ensure Font Awesome Version 4 compatibility, and more.</p>
+            </div>
+          </div>
+          <div className={'flex gap-6'}>
+            <i className="fa-solid fa-download text-[32px] text-green-500"></i>
+            <div className={'flex flex-col gap-3'}>
+              <h3 className={'flex items-center gap-3 text-[18px] font-medium text-[#183153]'}>
+                <span className={'rounded-lg bg-[#183153] px-3 py-1 text-[12px] font-medium text-white'}>SOON !</span>
+                Download
+              </h3>
+              <p className={'w-[464px] max-lg:w-full'}>Design on the desktop with our Figma component, icon fonts, and SVGs, or grab the files to self-host.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={'relative bg-[#F0F1F3] py-[100px] max-md:py-[50px]'}>
+        <div className={'container'}>
+          <div className={'flex flex-col items-center justify-center gap-[20px] max-md:items-start max-md:gap-[10px]'}>
+            <h3 className={'text-[18px] font-medium tracking-[8px] text-[#9C36B5]'}>ICON DISCOVERY</h3>
+            <h2 className={'text-[32px] font-[500] max-md:text-[25px] max-[465px]:text-[20px]'}>These ARE the icons you&apos;re looking for.</h2>
+            <p className={'w-[728px] text-center max-md:mb-3 max-md:w-full max-md:text-start'}>Have you ever squandered hours scanning the dank, skeezy corners of the internet scrounging up the icons you need? Us too. That&apos;s why we re-engineered our icon search from the ground up with ease of icon findability in mind, so you can match your brand with the perfect look and feel.</p>
+            <div className={'relative'}>
+              <i className="fa-solid fa-magnifying-glass absolute left-[25px] top-[19px] text-[22px] "></i>
+              <Input
+                style={{
+                  boxShadow: 'inset 0 0.25em 0 0 rgb(240, 241, 243)',
+                }}
+                placeholder={'Search 500+ icons across 9 styles + brands...'}
+                className={'w-[650px] rounded-[4em] border-2 border-[#183153] !py-[28px] pl-[60px] text-[18px] !outline-none active:!ring-[3px] active:!ring-[#86BEF7] active:!ring-offset-1 max-md:w-[450px] max-[465px]:w-[350px]'}
+              />
+            </div>
+          </div>
+          <div className={'mt-14 flex flex-wrap items-center justify-center gap-7'}>
+            <Link href={''} className={'category-1 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#B197FC] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-face-smile text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Emoji</span>
+            </Link>
+            <Link href={''} className={'category-2 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#63E6BE] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-apple-whole text-4xl text-[#183153]"></i>
+              <span className={'text-center font-medium text-[#183153]'}>Fruits + Vegetables</span>
+            </Link>
+            <Link href={''} className={'category-3 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#E599F7] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-font text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Alphabet</span>
+            </Link>
+            <Link href={''} className={'category-4 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#74C0FC] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-anchor text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Maritime</span>
+            </Link>
+            <Link href={''} className={'category-5 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#FF8787] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-robot text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Science Fiction</span>
+            </Link>
+            <Link href={''} className={'category-6 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#F36944] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-brands fa-wordpress text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Brands</span>
+            </Link>
+            <Link href={''} className={'category-1 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#B197FC] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-face-smile text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Emoji</span>
+            </Link>
+            <Link href={''} className={'category-2 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#63E6BE] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-apple-whole text-4xl text-[#183153]"></i>
+              <span className={'text-center font-medium text-[#183153]'}>Fruits + Vegetables</span>
+            </Link>
+            <Link href={''} className={'category-3 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#E599F7] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-font text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Alphabet</span>
+            </Link>
+            <Link href={''} className={'category-4 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#74C0FC] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-anchor text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Maritime</span>
+            </Link>
+            <Link href={''} className={'category-5 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#FF8787] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-solid fa-robot text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Science Fiction</span>
+            </Link>
+            <Link href={''} className={'category-6 relative flex h-[136px] w-[160px] flex-col items-center justify-center gap-3 rounded-[15px] bg-[#F36944] px-[20px]'}>
+              <span className={'absolute -top-3 left-auto right-auto rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON!</span>
+              <i className="fa-brands fa-wordpress text-4xl text-[#183153]"></i>
+              <span className={'font-medium text-[#183153]'}>Brands</span>
+            </Link>
+          </div>
+        </div>
+      </div>
       {/*<div className={'container'}>*/}
       {/*  <div className={'mb-[100px] flex items-center justify-between'}>*/}
       {/*    <div>*/}
