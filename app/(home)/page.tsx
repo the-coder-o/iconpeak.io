@@ -319,31 +319,31 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/*<div className={'bg-[#183153] p-10'}>*/}
-      {/*  <div className={'container'}>*/}
-      {/*    <div>*/}
-      {/*      <p className={'text-center font-medium tracking-[5px] text-[#fff]'}>FINE-TUNED FOR PERFORMANCE</p>*/}
-      {/*      <div className={'mt-[50px] grid grid-cols-4 gap-[60px]'}>*/}
-      {/*        <div className={'flex flex-col items-center gap-3'}>*/}
-      {/*          <i className="fa-solid fa-feather text-5xl text-[#fff]"></i>*/}
-      {/*          <p className={'text-center font-medium text-[#63E6BE]'}>Light-as-a-feather on Page Loads</p>*/}
-      {/*        </div>*/}
-      {/*        <div className={'flex flex-col items-center gap-3'}>*/}
-      {/*          <i className="fa-solid fa-truck-ramp-box text-5xl text-[#fff]"></i>*/}
-      {/*          <p className={'text-center font-medium text-[#63E6BE]'}>Reliable Uptime and Loading</p>*/}
-      {/*        </div>*/}
-      {/*        <div className={'flex flex-col items-center gap-3'}>*/}
-      {/*          <i className="fa-solid fa-earth-asia text-5xl text-[#fff]"></i>*/}
-      {/*          <p className={'text-center font-medium text-[#63E6BE]'}>Global-friendly CDN Network</p>*/}
-      {/*        </div>*/}
-      {/*        <div className={'flex flex-col items-center gap-3'}>*/}
-      {/*          <i className="fa-solid fa-gauge-high text-5xl text-[#fff]"></i>*/}
-      {/*          <p className={'text-center font-medium text-[#63E6BE]'}>Auto and Custom Subsetting Options</p>*/}
-      {/*        </div>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
+      <div className={'bg-[#183153] p-10'}>
+        <div className={'container'}>
+          <div>
+            <p className={'text-center font-medium tracking-[5px] text-[#fff]'}>FINE-TUNED FOR PERFORMANCE</p>
+            <div className={'mt-[50px] grid grid-cols-4 gap-[60px] max-lg:grid-cols-2'}>
+              <div className={'flex flex-col items-center gap-3'}>
+                <i className="fa-solid fa-feather text-5xl text-[#fff] max-md:text-[30px]"></i>
+                <p className={'text-center font-medium text-[#63E6BE] max-md:text-sm max-sm:text-xs'}>Light-as-a-feather on Page Loads</p>
+              </div>
+              <div className={'flex flex-col items-center gap-3'}>
+                <i className="fa-solid fa-truck-ramp-box text-5xl text-[#fff] max-md:text-[30px]"></i>
+                <p className={'text-center font-medium text-[#63E6BE] max-md:text-sm max-sm:text-xs'}>Reliable Uptime and Loading</p>
+              </div>
+              <div className={'flex flex-col items-center gap-3'}>
+                <i className="fa-solid fa-earth-asia text-5xl text-[#fff] max-md:text-[30px]"></i>
+                <p className={'text-center font-medium text-[#63E6BE] max-md:text-sm max-sm:text-xs'}>Global-friendly CDN Network</p>
+              </div>
+              <div className={'flex flex-col items-center gap-3'}>
+                <i className="fa-solid fa-gauge-high text-5xl text-[#fff] max-md:text-[30px]"></i>
+                <p className={'text-center font-medium text-[#63E6BE] max-md:text-sm max-sm:text-xs'}>Auto and Custom Subsetting Options</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/*<div className={'container'}>*/}
       {/*  <div className={'mb-[60px] mt-[40px] flex items-center justify-between'}>*/}
       {/*    <div className={'flex flex-col gap-5'}>*/}
