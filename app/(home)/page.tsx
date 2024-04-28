@@ -392,54 +392,54 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/*<div className={'bg-[#F0F1F3]'}>*/}
-      {/*  <div className={'container'}>*/}
-      {/*    <div className={'mb-20 flex items-center justify-between gap-[40px]'}>*/}
-      {/*      <div className={'flex flex-col gap-7'}>*/}
-      {/*        <h2 className={'font-bold tracking-[8px] text-[#09A778]'}>CREATIVE CUSTOMIZATION</h2>*/}
-      {/*        <h1 className={'text-[32px] font-[500]'}>Add to the Iconpeak</h1>*/}
-      {/*        <p className={'w-[528px] text-[17px]'}>Never be without an icon you need! Extend Font Awesome with your own custom icons, logos, and even other icon sets to fit your project perfectly. The best part, all icons you add are used just as easily as official ones.</p>*/}
-      {/*        <Link href={'/'} className={'shadow-custom-box flex items-center justify-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-[#63E6BE] px-[65px] py-[12px] text-[18px] font-medium text-[#183153]'}>*/}
-      {/*          <i className="fa-solid fa-rocket"></i>*/}
-      {/*          Add you own icons*/}
-      {/*        </Link>*/}
-      {/*      </div>*/}
-      {/*      <div>*/}
-      {/*        <Image src={'https://img.fortawesome.com/1ce05b4b/other-sets-illustration.svg'} width={100} height={100} alt={'bg-image'} className={'!w-[100%]'} />*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div className={'mt-[50px] grid grid-flow-col grid-rows-2 gap-5 pb-[100px]'}>*/}
-      {/*      <div className={'flex gap-6 rounded-[15px] bg-[#74C0FC] p-5'}>*/}
-      {/*        <i className="fa-solid fa-cloud-arrow-up text-4xl text-[#183153]"></i>*/}
-      {/*        <div className={'flex flex-col gap-3'}>*/}
-      {/*          <h3 className={'text-[20px] font-medium'}>It&apos;s B.Y.O.I. (Bring Your Own Icons)</h3>*/}
-      {/*          <p className={'w-[450px]'}>Add the icons and symbols your project needs that aren&apos;t in Font Awesome… yet. Now with Duotone support!</p>*/}
-      {/*        </div>*/}
-      {/*      </div>*/}
-      {/*      <div className={'flex gap-6 rounded-[15px] bg-[#63E6BE] p-5'}>*/}
-      {/*        <i className="fa-solid fa-boxes-stacked text-4xl text-[#183153]"></i>*/}
-      {/*        <div className={'flex flex-col gap-3'}>*/}
-      {/*          <h3 className={'text-[20px] font-medium'}>Game. Other Sets. Match.</h3>*/}
-      {/*          <p className={'w-[450px]'}>Bring in your other favorite icon sets to supplement Font Awesome icons - and use all of them with one easy and familiar syntax.</p>*/}
-      {/*        </div>*/}
-      {/*      </div>*/}
-      {/*      <div className={'flex gap-6 rounded-[15px] bg-[#FFD43B] p-5'}>*/}
-      {/*        <i className="fa-solid fa-check-double text-4xl text-[#183153]"></i>*/}
-      {/*        <div className={'flex flex-col gap-3'}>*/}
-      {/*          <h3 className={'text-[20px] font-medium'}>Add Your Logo</h3>*/}
-      {/*          <p className={'w-[450px]'}>Upload your project&apos;s logo and use it just as easily as one of our Brand icons.</p>*/}
-      {/*        </div>*/}
-      {/*      </div>*/}
-      {/*      <div className={'flex gap-6 rounded-[15px] bg-[#E599F7] p-5'}>*/}
-      {/*        <i className="fa-solid fa-folder-tree text-4xl text-[#183153]"></i>*/}
-      {/*        <div className={'flex flex-col gap-3'}>*/}
-      {/*          <h3 className={'text-[20px] font-medium'}>Fine-Tune Any Icon</h3>*/}
-      {/*          <p className={'w-[450px]'}>With our Icon Wizard, magically add modifiers to any icon to make its meaning crystal ball-clear and perfect for your project.</p>*/}
-      {/*        </div>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
+      <div className={'bg-[#F0F1F3]'}>
+        <div className={'container'}>
+          <div className={'mb-20 flex items-center justify-between gap-[40px] max-lg:flex-col-reverse max-lg:gap-[40px] max-md:mb-[25px]'}>
+            <div className={'flex flex-col gap-7 max-md:gap-3'}>
+              <h2 className={'font-bold tracking-[8px] text-[#09A778] max-md:text-[15px]'}>CREATIVE CUSTOMIZATION</h2>
+              <h1 className={'text-[32px] font-[500] max-md:text-[25px]'}>Add to the Iconpeak</h1>
+              <p className={'w-[528px] text-[17px] max-md:w-full'}>Never be without an icon you need! Extend Font Awesome with your own custom icons, logos, and even other icon sets to fit your project perfectly. The best part, all icons you add are used just as easily as official ones.</p>
+              <Link href={'/'} className={'shadow-custom-box flex items-center justify-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-[#63E6BE] px-[65px] py-[12px] text-[18px] font-medium text-[#183153]'}>
+                <i className="fa-solid fa-rocket"></i>
+                Add you own icons
+              </Link>
+            </div>
+            <div>
+              <Image src={'https://img.fortawesome.com/1ce05b4b/other-sets-illustration.svg'} width={100} height={100} alt={'bg-image'} className={'!w-[100%]'} />
+            </div>
+          </div>
+          <div className={'mt-[50px] grid grid-flow-col grid-rows-2 gap-5 pb-[100px] max-md:flex max-md:flex-col max-md:pb-[50px]'}>
+            <div className={'flex gap-6 rounded-[15px] bg-[#74C0FC] p-5'}>
+              <i className="fa-solid fa-cloud-arrow-up text-4xl text-[#183153] max-md:text-3xl"></i>
+              <div className={'flex flex-col gap-3'}>
+                <h3 className={'text-[20px] font-medium'}>It&apos;s B.Y.O.I. (Bring Your Own Icons)</h3>
+                <p className={'!w-full'}>Add the icons and symbols your project needs that aren&apos;t in Font Awesome… yet. Now with Duotone support!</p>
+              </div>
+            </div>
+            <div className={'flex gap-6 rounded-[15px] bg-[#63E6BE] p-5'}>
+              <i className="fa-solid fa-boxes-stacked text-4xl text-[#183153] max-md:text-3xl"></i>
+              <div className={'flex flex-col gap-3'}>
+                <h3 className={'text-[20px] font-medium'}>Game. Other Sets. Match.</h3>
+                <p className={'!w-full'}>Bring in your other favorite icon sets to supplement Font Awesome icons - and use all of them with one easy and familiar syntax.</p>
+              </div>
+            </div>
+            <div className={'flex gap-6 rounded-[15px] bg-[#FFD43B] p-5'}>
+              <i className="fa-solid fa-check-double text-4xl text-[#183153] max-md:text-3xl"></i>
+              <div className={'flex flex-col gap-3'}>
+                <h3 className={'text-[20px] font-medium'}>Add Your Logo</h3>
+                <p className={'!w-full'}>Upload your project&apos;s logo and use it just as easily as one of our Brand icons.</p>
+              </div>
+            </div>
+            <div className={'flex gap-6 rounded-[15px] bg-[#E599F7] p-5'}>
+              <i className="fa-solid fa-folder-tree text-4xl text-[#183153] max-md:text-3xl"></i>
+              <div className={'flex flex-col gap-3'}>
+                <h3 className={'text-[20px] font-medium'}>Fine-Tune Any Icon</h3>
+                <p className={'!w-full'}>With our Icon Wizard, magically add modifiers to any icon to make its meaning crystal ball-clear and perfect for your project.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
