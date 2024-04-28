@@ -344,54 +344,54 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/*<div className={'container'}>*/}
-      {/*  <div className={'mb-[60px] mt-[40px] flex items-center justify-between'}>*/}
-      {/*    <div className={'flex flex-col gap-5'}>*/}
-      {/*      <h3 className={'text-[17px] font-[500] tracking-[5px] text-[#09A778]'}>THE RIGHT TOOL FOR THE JOB</h3>*/}
-      {/*      <h2 className={'text-[40px] font-[500] text-[#183153]'}>Works Where You Work</h2>*/}
-      {/*      <p className={'w-[520px] text-[16px] text-[#183153]'}>Whatever you&apos;re working on, we&apos;ve got a set of tools that work how and where you do.</p>*/}
-      {/*      <div className={'flex items-center gap-5'}>*/}
-      {/*        <Link href={'/'} className={'shadow-custom-box flex items-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-[#63E6BE] px-[65px] py-[15px] text-[18px] font-medium text-[#183153]'}>*/}
-      {/*          <i className="fa-solid fa-icons"></i>*/}
-      {/*          Your Icons*/}
-      {/*        </Link>*/}
-      {/*        <Link href={'/'} className={'shadow-custom-box flex items-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-white px-[65px] py-[15px] text-[18px] font-medium text-[#183153]'}>*/}
-      {/*          <i className="fa-solid fa-download"></i>*/}
-      {/*          Download*/}
-      {/*        </Link>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div>*/}
-      {/*      <Image src={'https://img.fortawesome.com/1ce05b4b/frameworks-content-creator.svg'} alt={''} width={100} height={100} className={'-z-10 mt-[-41px] !w-[520px]'} />*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*  <div className={'mb-[100px] grid grid-cols-3 items-center gap-[30px]'}>*/}
-      {/*    <div className={'relative rounded-[16px] bg-[#146EBE] p-5'}>*/}
-      {/*      <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>*/}
-      {/*      <div className={'flex flex-col gap-4'}>*/}
-      {/*        <i className="fa-solid fa-user-tie text-5xl text-white"></i>*/}
-      {/*        <h3 className={'text-xl text-white'}>Great for Developers</h3>*/}
-      {/*        <p className={'text-white'}>We&apos;ve got frameworks and toolkits for the most popular plugins and packages that already work the way you expect.</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div className={'relative rounded-[16px] bg-[#9C36B5] p-5'}>*/}
-      {/*      <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>*/}
-      {/*      <div className={'flex flex-col gap-4'}>*/}
-      {/*        <i className="fa-solid fa-user-ninja text-5xl text-white"></i>*/}
-      {/*        <h3 className={'text-xl text-white'}>Great for Designers</h3>*/}
-      {/*        <p className={'text-white'}>Use your own designs alongside thousands of matching Font Awesome icons in each of 9 unique styles.</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*    <div className={'relative rounded-[16px] bg-[#09A778] p-5'}>*/}
-      {/*      <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>*/}
-      {/*      <div className={'flex flex-col gap-4'}>*/}
-      {/*        <i className="fa-solid fa-user-secret text-5xl text-white"></i>*/}
-      {/*        <h3 className={'text-xl text-white'}>Great for Content Creators</h3>*/}
-      {/*        <p className={'text-white'}>With oodles of free icons — including brands + social icons — our syntax is easy to use in authoring tools like WordPress.</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</div>*/}
+      <div className={'container'}>
+        <div className={'mb-[60px] mt-[40px] flex items-center justify-between max-lg:flex-col-reverse max-lg:gap-[50px]'}>
+          <div className={'flex flex-col gap-5 max-md:gap-2'}>
+            <h3 className={'text-[17px] font-[500] tracking-[5px] text-[#09A778] max-md:text-[15px]'}>THE RIGHT TOOL FOR THE JOB</h3>
+            <h2 className={'text-[40px] font-[500] text-[#183153] max-md:text-[25px]'}>Works Where You Work</h2>
+            <p className={'w-[520px] text-[16px] text-[#183153] max-lg:w-full'}>Whatever you&apos;re working on, we&apos;ve got a set of tools that work how and where you do.</p>
+            <div className={'flex items-center gap-5 max-md:flex-col'}>
+              <Link href={'/'} className={'shadow-custom-box flex items-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-[#63E6BE] px-[65px] py-[15px] text-[18px] font-medium text-[#183153] max-lg:w-full max-lg:justify-center'}>
+                <i className="fa-solid fa-icons"></i>
+                Your Icons
+              </Link>
+              <Link href={'/'} className={'shadow-custom-box flex items-center gap-4 rounded-[0.65rem] border-[0.125rem] border-[#183153] bg-white px-[65px] py-[15px] text-[18px] font-medium text-[#183153] max-lg:w-full max-lg:justify-center'}>
+                <i className="fa-solid fa-download"></i>
+                Download
+              </Link>
+            </div>
+          </div>
+          <div>
+            <Image src={'https://img.fortawesome.com/1ce05b4b/frameworks-content-creator.svg'} alt={''} width={100} height={100} className={'-z-10 mt-[-41px] !w-[520px]'} />
+          </div>
+        </div>
+        <div className={'mb-[100px] grid grid-cols-3 items-center gap-[30px] max-lg:grid-cols-2 max-md:mb-[50px] max-md:grid-cols-1'}>
+          <div className={'relative rounded-[16px] bg-[#146EBE] p-5'}>
+            <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>
+            <div className={'flex flex-col gap-4'}>
+              <i className="fa-solid fa-user-tie text-5xl text-white"></i>
+              <h3 className={'text-xl text-white'}>Great for Developers</h3>
+              <p className={'text-white'}>We&apos;ve got frameworks and toolkits for the most popular plugins and packages that already work the way you expect.</p>
+            </div>
+          </div>
+          <div className={'relative rounded-[16px] bg-[#9C36B5] p-5'}>
+            <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>
+            <div className={'flex flex-col gap-4'}>
+              <i className="fa-solid fa-user-ninja text-5xl text-white"></i>
+              <h3 className={'text-xl text-white'}>Great for Designers</h3>
+              <p className={'text-white'}>Use your own designs alongside thousands of matching Font Awesome icons in each of 9 unique styles.</p>
+            </div>
+          </div>
+          <div className={'relative rounded-[16px] bg-[#09A778] p-5'}>
+            <span className={'absolute -top-3 right-8 rounded-lg bg-[#183153] px-3 py-1 text-xs font-medium text-white'}>SOON !</span>
+            <div className={'flex flex-col gap-4'}>
+              <i className="fa-solid fa-user-secret text-5xl text-white"></i>
+              <h3 className={'text-xl text-white'}>Great for Content Creators</h3>
+              <p className={'text-white'}>With oodles of free icons — including brands + social icons — our syntax is easy to use in authoring tools like WordPress.</p>
+            </div>
+          </div>
+        </div>
+      </div>
       {/*<div className={'bg-[#F0F1F3]'}>*/}
       {/*  <div className={'container'}>*/}
       {/*    <div className={'mb-20 flex items-center justify-between gap-[40px]'}>*/}
